@@ -1,0 +1,8 @@
+#########################
+##### general
+
+##### classification 
+# imbalance features 
+https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18
+
+##### regression
