@@ -1,8 +1,41 @@
 #########################
-##### general
+##### EDA
+### sense data 
+### outlier & dist 
+### skewness - transforming features to make their distributions more Gaussian-like or to normalize their distribution
+https://www.kaggle.com/code/aimack/how-to-handle-skewed-distribution
+1. log - right skew  
+2. square - left skew 
+3. PowerTransformer: useful for modeling issues related to heteroscedasticity (non-constant variance)
+box-cox (does not work with negative values and 0); 
+Yeo-Johnson (can be used for any distribution, both positive and negative)
 
+### non-linear relationship 
+https://medium.com/analytics-vidhya/how-to-measure-the-non-linear-correlation-between-multiple-variables-804d896760b8
+
+#########################
 ##### classification 
-# imbalance features 
+### imbalance features 
 https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18
+https://www.kaggle.com/code/tboyle10/methods-for-dealing-with-imbalanced-data
 
+#########################
 ##### regression
+### light GBM 
+https://zhuanlan.zhihu.com/p/376485485?utm_id=0
+
+#########################
+##### cluster
+### K-means
+https://medium.com/analytics-vidhya/how-to-determine-the-optimal-k-for-k-means-708505d204eb
+https://medium.com/@jwbtmf/visualizing-data-using-k-means-clustering-unsupervised-machine-learning-8b59eabfcd3d
+https://www.datanovia.com/en/blog/k-means-clustering-visualization-in-r-step-by-step-guide/
+#########################
+##### evaluation 
+F1: https://en.wikipedia.org/wiki/Dice-S%C3%B8rensen_coefficient
+##### sklearn 
+https://scikit-learn.org/stable/modules/model_evaluation.html
+
+##### feature importance 
+https://medium.com/@mukherjee.abhradeep/feature-selection-and-feature-importance-section-1-a9b460eeb997
+https://medium.com/@mukherjee.abhradeep/feature-selection-and-feature-importance-section-ii-a8cb713b5b22
